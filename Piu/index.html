@@ -1,166 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"></head> -->
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"></head> -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/test.css"  rel="stylesheet">
+</head>
 <body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
+<nav class="navbar navbar-default" id="mainNav">
+    <div class="container-fluid" >
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true" aria-label="ze">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <a class="navbar-brand" href="#">Brand</a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
+        <div class="collapse navbar-collapse" id="regLog">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
+                <li><a href="#">Register</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li>
+                            <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1"></span>
+                            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                        </div>
+                        </li>
+                        <li>
+                            <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1"></span>
+                            <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                        </div>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
 
+        <div class="btn-group" id="quickNav" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">Category 1</button>
+            <button type="button" class="btn btn-default">Category 2</button>
+            <button type="button" class="btn btn-default">Category 3</button>
+            <button type="button" class="btn btn-default">Category 4</button>
+            <button type="button" class="btn btn-default">Category 5</button>
+            <button type="button" class="btn btn-default">Category 6</button>
+        </div>
     </div><!-- /.container-fluid -->
 </nav>
 
 <div class="row">
-
-
     <div class="col-lg-2">
-
-    </div>
-
-    <div class="col-lg-4">
         <div class="panel panel-default">
             <!-- Default panel contents -->
-            <div class="panel-heading">Pending Approval</div>
+            <div class="panel-heading">News</div>
+            <div class="panel-body">
 
-            <!-- Table -->
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Title</th>
-                    <th>Auth</th>
-                    <th>Quewe Time</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td><img src="image.jpg" class="img-thumbnail" alt="_" width="100" height="100"></td>
-                    <td>Zombies attack N.Y.</td>
-                    <td>this is a link</td>
-                    <td> 3h 00m </td>
-                </tr>
-                <tr>
-                    <td><img src="image.jpg" class="img-thumbnail" alt="_" width="100" height="100"></td>
-                    <td>Zombies attack N.Y.</td>
-                    <td>this is a link</td>
-                    <td> 3h 00m </td>
+                <div class="input-group">
+                    <p>include category : </p>
+                    <ul class="list-group">
+                        <li class="list-group-item"> <label class="checkbox-inline"><input type="checkbox" value="">Option 1</label></li>
+                        <li class="list-group-item" ><label class="checkbox-inline"><input type="checkbox" value="">Option 2</label></li>
+                        <li class="list-group-item"><label class="checkbox-inline"><input type="checkbox" value="">Option 3</label></li>
+                        <li class="list-group-item"><label class="checkbox-inline"><input type="checkbox" value="">Option 4</label></li>
+                        <li class="list-group-item"><label class="checkbox-inline"><input type="checkbox" value="">Option 5</label></li>
+                        <li class="list-group-item"><label class="checkbox-inline"><input type="checkbox" value="">Option 6</label></li>
+                    </ul>
+                </div><!-- /input-group -->
+            </div>
 
-                </tr>
-                <tr>
-                    <td><img src="image.jpg" class="img-thumbnail" alt="_" width="100" height="100"></td>
-                    <td>Zombies attack N.Y.</td>
-                    <td>this is a link</td>
-                    <td> 3h 00m </td>
-                </tr>
-                </tbody>
-            </table>
         </div>
     </div>
+    <div class="col-lg-5" class="newsCcontent">
+        <!-- Table -->
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th> <div class="imageWidth"></div></th>
+                <th><div class="titleWidth"></div></th>
+                <th><div class="detailsWidth"></div></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <div>
+                        <img src="image.jpg" class="img-thumbnail"  alt="_" width="100" height="100">
+                    </div>
+
+                </td>
+                <td>
+                    <div class="well" >
+                        <p>Zombies attack N.Y.</p>
+                        <div class ="details" >
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                            </button>
+                            <button class="btn btn-default" type="button">
+                                Messages <span class="badge">4</span>
+                            </button>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="expand"></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <div>
+                        <img src="image.jpg" class="img-thumbnail"  alt="_" width="100" height="100">
+                    </div>
+
+                </td>
+                <td>
+                    <div class="well" >
+                        <p>Zombies attack N.Y.</p>
+                        <div class ="details" >
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                            </button>
+                            <button class="btn btn-default" type="button">
+                                Messages <span class="badge">4</span>
+                            </button>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="expand"></div>
+                </td>
+            </tr>
 
 
 
-    <div class="col-lg-6">
-        <div class="panel panel-default">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Aproved</div>
-
-            <!-- Table -->
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Title</th>
-                    <th>Auth</th>
-                    <th>Up time</th>
-                    <th>Likes</th>
-                    <th>Dislikes</th>
-                    <th>Comments</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td><img src="image.jpg" class="img-thumbnail" alt="_" width="100" height="100"></td>
-                    <td>Trump is the new president</td>
-                    <td>john Stuart</td>
-                    <td>2d 16h</td>
-                    <td>-1</td>
-                    <td>4 k </td>
-                    <td>200</td>
-                </tr>
-                <tr>
-                    <td><img src="image.jpg" class="img-thumbnail" alt="_" width="100" height="100"></td>
-                    <td>Trump is the new president</td>
-                    <td>john Stuart</td>
-                    <td>2d 16h</td>
-                    <td>-1</td>
-                    <td>4 k </td>
-                    <td>200</td>
-                </tr>
-                <tr>
-                    <td><img src="image.jpg" class="img-thumbnail" alt="_" width="100" height="100"></td>
-                    <td>Trump is the new president</td>
-                    <td>john Stuart</td>
-                    <td>2d 16h</td>
-                    <td>-1</td>
-                    <td>4 k </td>
-                    <td>200</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+            </tbody>
+        </table>
     </div>
 </div>
 
