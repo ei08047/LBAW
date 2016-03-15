@@ -13,12 +13,13 @@
 .sidebar-left-collapse {
 	font-family: Arial, Helvetica, sans-serif;
 	position: fixed;
-	top: 0;
+	top: 89px; /*90 if border exists*/
 	left: 0;
 	background-color: #292c2f;
 	width: 180px;
 	height: 100%;
 	padding: 20px 0;
+	z-index: 1001;
 }
 
 .sidebar-left-collapse > a {
