@@ -38,4 +38,12 @@ $('.carousel').swipe( {
  });
 
 
+ ////news click
+ $( "figcaption" ).click(function() {
+console.log("clicked on fig caption");
+     //$("#squarebox-container").addClass("overlay");
+
+ });
+
+
 
