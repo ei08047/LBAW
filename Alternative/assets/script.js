@@ -12,7 +12,6 @@
 
 
 
-
 var wow = new WOW(
   {
     boxClass:     'wowload',      // animated element css class (default is wow)
@@ -41,8 +40,7 @@ $('.carousel').swipe( {
  ////news click
  $( "figcaption" ).click(function() {
 console.log("clicked on fig caption");
-     //$("#squarebox-container").addClass("overlay");
-
+     window.location.href = "./new.html";
  });
 
 
