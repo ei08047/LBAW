@@ -176,14 +176,16 @@
                      <a href="#">Share</i></a>
                      <a href="#">upVote</i> <span class="badge">9</span></a>
                      <a href="#">DownVote</i> <span class="badge">2</span></a>
-                     <a href="#">Comments</i></a>
+                     <a class="comments" href="#">Comments</i></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- works -->
 
-
+    <div class="comments_content" style="display: none">
+        <p>this is a comment</p>
+    </div>
 
 
 
@@ -226,21 +228,18 @@
 <!-- wow script -->
 
 
-<!--
+
 <script>
 
     $(document).ready(function() {
+        $(".comments").click(function() {
+                    $(".comments_content").attr("display" , "block" );
+                }
 
-        // Initialize the plugin
-        $('#my_popup').popup({
-            opacity: 0.6,
-            transition: 'all 0.3s',
-            scrolllock: true
-        });
-
+        );
     });
 </script>
--->
+
 
 <script>
 
