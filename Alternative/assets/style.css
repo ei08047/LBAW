@@ -83,6 +83,9 @@ div.news_content {
 	columns: 100px 3;
 }
 
+.news_details a{border:1px solid #fff;display: inline-block;color: #181a1b ;padding: 0 2em;}
+.news_details a:hover{text-decoration: none;padding: 0 3em;}
+
 
 /*ze css */
 
