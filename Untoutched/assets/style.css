@@ -38,6 +38,17 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .navbar-default{background-color: #292c2f;	border-color: #00a9c6; border: none;}
 #head,.carousel{margin-top: 0;}
 
+/*BUG HERE WITH CONTAINER SIZE!!*/
+.modal-body .container {width: 90em; padding: 0;}
+.modal-body .panel-heading{background-color: #292c2f;}
+.modal-body .panel-title{color: #21abca; font-size: medium;}
+
+.panel-body .container {width: 90em; padding: 0;}
+.panel-body .panel-heading{background-color: #292c2f;}
+.panel-body .panel-title{color: #21abca; font-size: medium;}
+
+#searchB{width: 10px;}
+
 #home{padding-top: 6em;}
 .carousel-caption{top:0;bottom: 0;left: 0; right: 0;padding: 0;}
 .caption-wrapper{display: table;height: 100%;width: 100%;}
