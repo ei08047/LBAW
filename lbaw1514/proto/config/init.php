@@ -11,7 +11,7 @@
   $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $conn->exec('SET SCHEMA \'proto\''); 
+  $conn->exec('SET SCHEMA \'test\''); 
 
   include_once($BASE_DIR . 'lib/smarty/Smarty.class.php');
   
@@ -24,7 +24,7 @@
   $smarty->assign('FIELD_ERRORS', $_SESSION['field_errors']);
   $smarty->assign('SUCCESS_MESSAGES', $_SESSION['success_messages']);
   $smarty->assign('FORM_VALUES', $_SESSION['form_values']);
-  $smarty->assign('USERNAME', $_SESSION['username']);
+  $smarty->assign('EMAIL', $_SESSION['email']);
   
   unset($_SESSION['success_messages']);
   unset($_SESSION['error_messages']);  
