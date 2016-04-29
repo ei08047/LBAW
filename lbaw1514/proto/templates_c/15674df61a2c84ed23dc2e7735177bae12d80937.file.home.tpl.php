@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2016-04-29 01:50:05
+<?php /* Smarty version Smarty-3.1.15, created on 2016-04-29 02:19:15
          compiled from "/opt/lbaw/lbaw1514/public_html/proto/templates/noticias/home.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:649069669572297be6c28e5-12768677%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '15674df61a2c84ed23dc2e7735177bae12d80937' => 
     array (
       0 => '/opt/lbaw/lbaw1514/public_html/proto/templates/noticias/home.tpl',
-      1 => 1461887407,
+      1 => 1461889152,
       2 => 'file',
     ),
   ),
@@ -403,7 +403,7 @@ images/portfolio/1.jpg" alt="img01"/>
         <figcaption>
             <h2>Nature</h2>
             <p>Phasellus luctus pellentesque metus tec euismod ...<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
             <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a>
                </p>
             <p>  <a href="community.html" >/n/Environment</i></a></p>
@@ -415,7 +415,7 @@ images/portfolio/2.jpg" alt="img01"/>
         <figcaption>
             <h2>Events</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="community.html" >/n/Social</i></a></p>
         </figcaption>
@@ -426,7 +426,7 @@ images/portfolio/3.jpg" alt="img01"/>
         <figcaption>
             <h2>music</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="community.html" >/n/Social</i></a></p>
         </figcaption>
@@ -439,7 +439,7 @@ images/portfolio/4.jpg" alt="img01"/>
             <p>Lily likes to play with crayons and pencils<br>
             <a href="news.html" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html" >/n/Antiques</i></a></p>
+            <p>  <a href="#" >/n/Antiques</i></a></p>
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
@@ -448,7 +448,7 @@ images/portfolio/5.jpg" alt="img01"/>
         <figcaption>
             <h2>Typers</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="community.html">/n/Antiques</i></a></p>
         </figcaption>
@@ -462,7 +462,7 @@ images/portfolio/6.jpg" alt="img01"/>
             <p>Lily likes to play with crayons and pencils<br>
             <a href="news.html" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html">/n/Food&Drink</i></a></p>
+            <p>  <a href="#">/n/Food&Drink</i></a></p>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
@@ -473,7 +473,7 @@ images/portfolio/7.jpg" alt="img01"/>
             <p>Lily likes to play with crayons and pencils<br>
             <a href="news.html" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html">/n/GlobalWarning</i></a></p>
+            <p>  <a href="#">/n/GlobalWarning</i></a></p>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
@@ -482,9 +482,9 @@ images/portfolio/8.jpg" alt="img01"/>
         <figcaption>
             <h2>Dicrap</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html" >/n/Antiques</i></a></p>
+            <p>  <a href="#" >/n/Antiques</i></a></p>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
@@ -499,11 +499,12 @@ images/portfolio/9.jpg" alt="img01"/>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="news.html" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/10.jpg" alt="img01"/>
         <figcaption>
             <h2>cameras</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="#" data-gallery>/n/Antiques</i></a></p>
         </figcaption>
@@ -514,7 +515,7 @@ images/portfolio/11.jpg" alt="img01"/>
         <figcaption>
             <h2>design</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="#" data-gallery>/n/Business</i></a></p>
         </figcaption>
@@ -525,7 +526,7 @@ images/portfolio/12.jpg" alt="img01"/>
         <figcaption>
             <h2>studio</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="#" data-gallery>/n/Art</i></a></p>
         </figcaption>
@@ -609,10 +610,14 @@ images/portfolio/12.jpg" alt="img01"/>
         <h2 class="text-center  wowload fadeInUp">Some of our happy clients</h2>
       <div class="clearfix">
         <div class="col-sm-6 partners  wowload fadeInLeft">
-             <img src="images/partners/1.jpg" alt="partners">
-             <img src="images/partners/2.jpg" alt="partners">
-             <img src="images/partners/3.jpg" alt="partners">
-             <img src="images/partners/4.jpg" alt="partners">
+             <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/partners/1.jpg" alt="partners">
+             <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/partners/2.jpg" alt="partners">
+             <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/partners/3.jpg" alt="partners">
+             <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/partners/4.jpg" alt="partners">
         </div>
         <div class="col-sm-6">
 
@@ -666,7 +671,8 @@ images/portfolio/12.jpg" alt="img01"/>
 <div class="row grid team  wowload fadeInUpBig">
 	<div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/8.jpg" alt="img01" class="img-responsive" />
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/team/8.jpg" alt="img01" class="img-responsive" />
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>
@@ -675,7 +681,8 @@ images/portfolio/12.jpg" alt="img01"/>
 
     <div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/10.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/team/10.jpg" alt="img01"/>
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>
@@ -684,7 +691,8 @@ images/portfolio/12.jpg" alt="img01"/>
 
     <div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/12.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/team/12.jpg" alt="img01"/>
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>
@@ -693,7 +701,8 @@ images/portfolio/12.jpg" alt="img01"/>
 
     <div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/17.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/team/17.jpg" alt="img01"/>
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>

@@ -368,7 +368,7 @@
         <figcaption>
             <h2>Nature</h2>
             <p>Phasellus luctus pellentesque metus tec euismod ...<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
             <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a>
                </p>
             <p>  <a href="community.html" >/n/Environment</i></a></p>
@@ -379,7 +379,7 @@
         <figcaption>
             <h2>Events</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="community.html" >/n/Social</i></a></p>
         </figcaption>
@@ -389,7 +389,7 @@
         <figcaption>
             <h2>music</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="community.html" >/n/Social</i></a></p>
         </figcaption>
@@ -401,7 +401,7 @@
             <p>Lily likes to play with crayons and pencils<br>
             <a href="news.html" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html" >/n/Antiques</i></a></p>
+            <p>  <a href="#" >/n/Antiques</i></a></p>
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
@@ -409,7 +409,7 @@
         <figcaption>
             <h2>Typers</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="community.html">/n/Antiques</i></a></p>
         </figcaption>
@@ -422,7 +422,7 @@
             <p>Lily likes to play with crayons and pencils<br>
             <a href="news.html" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html">/n/Food&Drink</i></a></p>
+            <p>  <a href="#">/n/Food&Drink</i></a></p>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
@@ -432,7 +432,7 @@
             <p>Lily likes to play with crayons and pencils<br>
             <a href="news.html" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html">/n/GlobalWarning</i></a></p>
+            <p>  <a href="#">/n/GlobalWarning</i></a></p>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
@@ -440,9 +440,9 @@
         <figcaption>
             <h2>Dicrap</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
-            <p>  <a href="community.html" >/n/Antiques</i></a></p>
+            <p>  <a href="#" >/n/Antiques</i></a></p>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
@@ -456,11 +456,11 @@
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="news.html" alt="img01"/>
+        <img src="{$BASE_URL}images/portfolio/10.jpg" alt="img01"/>
         <figcaption>
             <h2>cameras</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="#" data-gallery>/n/Antiques</i></a></p>
         </figcaption>
@@ -470,7 +470,7 @@
         <figcaption>
             <h2>design</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="#" data-gallery>/n/Business</i></a></p>
         </figcaption>
@@ -480,7 +480,7 @@
         <figcaption>
             <h2>studio</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="news.html" title="1" >View more</a>
+            <a href="#" title="1" >View more</a>
                 <a href="#" data-gallery><i class="fa fa-facebook fa-1x"></i></a></p>
             <p>  <a href="#" data-gallery>/n/Art</i></a></p>
         </figcaption>
@@ -564,10 +564,10 @@
         <h2 class="text-center  wowload fadeInUp">Some of our happy clients</h2>
       <div class="clearfix">
         <div class="col-sm-6 partners  wowload fadeInLeft">
-             <img src="images/partners/1.jpg" alt="partners">
-             <img src="images/partners/2.jpg" alt="partners">
-             <img src="images/partners/3.jpg" alt="partners">
-             <img src="images/partners/4.jpg" alt="partners">
+             <img src="{$BASE_URL}images/partners/1.jpg" alt="partners">
+             <img src="{$BASE_URL}images/partners/2.jpg" alt="partners">
+             <img src="{$BASE_URL}images/partners/3.jpg" alt="partners">
+             <img src="{$BASE_URL}images/partners/4.jpg" alt="partners">
         </div>
         <div class="col-sm-6">
 
@@ -621,7 +621,7 @@
 <div class="row grid team  wowload fadeInUpBig">
 	<div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/8.jpg" alt="img01" class="img-responsive" />
+        <img src="{$BASE_URL}images/team/8.jpg" alt="img01" class="img-responsive" />
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>
@@ -630,7 +630,7 @@
 
     <div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/10.jpg" alt="img01"/>
+        <img src="{$BASE_URL}images/team/10.jpg" alt="img01"/>
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>
@@ -639,7 +639,7 @@
 
     <div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/12.jpg" alt="img01"/>
+        <img src="{$BASE_URL}images/team/12.jpg" alt="img01"/>
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>
@@ -648,7 +648,7 @@
 
     <div class=" col-sm-3 col-xs-6">
 	<figure class="effect-chico">
-        <img src="images/team/17.jpg" alt="img01"/>
+        <img src="{$BASE_URL}images/team/17.jpg" alt="img01"/>
         <figcaption>
             <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
         </figcaption>
