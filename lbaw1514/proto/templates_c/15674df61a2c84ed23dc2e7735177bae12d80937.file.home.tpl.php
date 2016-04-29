@@ -1,4 +1,29 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.15, created on 2016-04-29 01:50:05
+         compiled from "/opt/lbaw/lbaw1514/public_html/proto/templates/noticias/home.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:649069669572297be6c28e5-12768677%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '15674df61a2c84ed23dc2e7735177bae12d80937' => 
+    array (
+      0 => '/opt/lbaw/lbaw1514/public_html/proto/templates/noticias/home.tpl',
+      1 => 1461887407,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '649069669572297be6c28e5-12768677',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_572297be74f378_22588353',
+  'variables' => 
+  array (
+    'BASE_URL' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_572297be74f378_22588353')) {function content_572297be74f378_22588353($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -6,29 +31,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>NOW - News </title>
 
-<!-- Google fonts -->
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- bootstrap -->
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+css/bootstrap.min.css" />
 
 <!-- animate.css -->
-<link rel="stylesheet" href="assets/animate/animate.css" />
-<link rel="stylesheet" href="assets/animate/set.css" />
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+css/animate.css" />
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+css/set.css" />
 
 <!-- gallery -->
-<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+css/blueimp-gallery.min.css">
 
 <!-- favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/favicon.ico" type="image/x-icon">
 
 
-<link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/sidebar-collapse.css">
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+css/style.css">
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+css/sidebar-collapse.css">
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
@@ -48,7 +81,8 @@
           <div class="container">
             <div class="navbar-header">
               <!-- Logo Starts -->
-              <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo"></a>
+              <a class="navbar-brand" href="#home"><img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/logo.png" alt="logo"></a>
               <!-- #Logo Ends -->
 
 
@@ -364,7 +398,8 @@
 
 
     <figure class="effect-oscar  wowload fadeIn">
-        <img src="images/portfolio/1.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/1.jpg" alt="img01"/>
         <figcaption>
             <h2>Nature</h2>
             <p>Phasellus luctus pellentesque metus tec euismod ...<br>
@@ -375,7 +410,8 @@
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/2.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/2.jpg" alt="img01"/>
         <figcaption>
             <h2>Events</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -385,7 +421,8 @@
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/3.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/3.jpg" alt="img01"/>
         <figcaption>
             <h2>music</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -395,7 +432,8 @@
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/4.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/4.jpg" alt="img01"/>
         <figcaption>
             <h2>Vintage</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -405,7 +443,8 @@
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/5.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/5.jpg" alt="img01"/>
         <figcaption>
             <h2>Typers</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -416,7 +455,8 @@
     </figure>
 
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/6.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/6.jpg" alt="img01"/>
         <figcaption>
             <h2>hotel</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -426,7 +466,8 @@
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/7.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/7.jpg" alt="img01"/>
         <figcaption>
             <h2>Chinese</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -436,7 +477,8 @@
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/8.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/8.jpg" alt="img01"/>
         <figcaption>
             <h2>Dicrap</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -446,7 +488,8 @@
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/9.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/9.jpg" alt="img01"/>
         <figcaption>
             <h2>Coffee</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -466,7 +509,8 @@
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/11.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/11.jpg" alt="img01"/>
         <figcaption>
             <h2>design</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -476,7 +520,8 @@
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/12.jpg" alt="img01"/>
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/portfolio/12.jpg" alt="img01"/>
         <figcaption>
             <h2>studio</h2>
             <p>Lily likes to play with crayons and pencils<br>
@@ -726,24 +771,28 @@ Copyright 2016 NOW - News On Wire. All rights reserved.
 
 
 <!-- jquery -->
-<script src="assets/jquery.js"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+javascript/jquery.js"></script>
 
 <!-- wow script -->
-<script src="assets/wow/wow.min.js"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+javascript/wow.min.js"></script>
 
 
 <!-- boostrap -->
-<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+javascript/bootstrap.js" type="text/javascript" ></script>
 
 <!-- jquery mobile -->
-<script src="assets/mobile/touchSwipe.min.js"></script>
-<script src="assets/respond/respond.js"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+javascript/touchSwipe.min.js"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+javascript/respond.js"></script>
 
 <!-- gallery -->
-<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+javascript/jquery.blueimp-gallery.min.js"></script>
 
-<!-- custom script -->
-<script src="assets/script.js"></script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
@@ -763,4 +812,4 @@ Copyright 2016 NOW - News On Wire. All rights reserved.
 </script>
 
 </body>
-</html>
+</html><?php }} ?>
